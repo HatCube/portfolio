@@ -1,4 +1,9 @@
 
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 #header{
     width: 100%;
     display: flex;
@@ -6,7 +11,6 @@
     align-items: center;
     padding : 10px;
     border: 1px solid black;
-    border-radius: 10px;
     box-sizing: border-box;
     background-color: black;
 
@@ -38,16 +42,18 @@ button:hover{
 #main{
     position: relative;
     display: inline-block;
+    width: 100%;
 }
 
 img{
     display: block;
-    width: 100%;
+    width: 100vw;
     height : auto;
     position: relative;
     z-index: -1;
     filter: brightness(50%);
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
 }
 
 #main_over_text{
