@@ -39,7 +39,7 @@ button:hover{
 /*^^^여기까지가 헤더 & 네비게이터 부분^^^*/
 /*vvv여기부터는 메인섹션vvv*/
 
-#main{
+#main_img{
     position: relative;
     display: inline-block;
     width: 100%;
@@ -56,7 +56,7 @@ img{
     object-position: center;
 }
 
-#main_over_text{
+#main_img_over_text{
     text-align: center;
     color : white;
     position: absolute;
